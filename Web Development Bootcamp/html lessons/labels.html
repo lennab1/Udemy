@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Labels Demo</title>
+</head>
+<body>
+	<h1>Sign-In Form</h1>
+	<form>
+		<label>
+			Username:
+			<input type="text" name="username" placeholder="Username"> 
+		</label>
+		<label>
+			Password:
+			<input type="password" name="password" placeholder="Password">
+		</label>
+		<button type="submit">Submit</button>
+	</form>
+
+	<br />
+	<!-- Alternative method (So, nesting input into label isn't required) Add id to input and for to label -->
+
+	<form>
+		<label for="username">Username:</label>
+		<input id="username" type="text" name="username" placeholder="Username"> 
+		<label for="password">Password:</label>
+		<input id="password" type="password" name="password" placeholder="Password">
+
+		<button type="submit">Submit</button>
+	</form>
+</body>
+</html>

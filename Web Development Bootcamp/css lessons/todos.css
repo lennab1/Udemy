@@ -1,0 +1,23 @@
+/*CSS Selectors*/
+/*Element Selector- Matches to all elements in html file Ex. body, div, p*/
+/*ID Selector- selects an element with a given ID*/
+/*Class Selector- Selects with all elements of given class*/
+
+
+body {
+	background: orange;
+}
+
+li {
+	border: 2px solid red;
+}
+
+#videos{
+	background-color: purple;
+	color: green;
+	font-size: 1.5em;
+}
+
+.completed {
+	text-decoration: line-through;
+}

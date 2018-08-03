@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Inputs Demo</title>
+</head>
+<body>
+
+	<p>Do you prefer cats or dogs?</p>
+	<form>
+		<!-- Having both inputs be the same name connects them. So, the user will only be able to select on radio button or the other -->
+		<label for="cats">Cats: </label>
+		<input id="cats" type="radio" name="petChoice" value="CATS">
+
+		<label for="dogs">Dogs: </label>
+		<input id=dog" type="radio" name="petChoice" value="DOGS">
+
+		<p>What is your favorite color?</p>
+		<select name="color">
+			<option>Red</option>
+			<option>Orange</option>
+			<option>Yellow</option>
+		</select>
+
+		<!-- Value is used with name with a form request. So, on submit the URL should say mood=Happy -->
+		<p>What is your current mood?</p>
+		<select name="mood">
+			<option value="Happy">:)</option>
+			<option value="Neutral">:|</option>
+			<option value="Sad">:(</option>
+		</select>
+		<br />
+
+		<!-- Rows determine how many rows the textarea has, cols determines columns-->
+		<!-- Use name to send data in a request (like all other inputs)-->
+		<textarea name="textarea" rows="10" cols="30"></textarea>
+
+		<button>Go!</button>
+	</form>
+	<br />
+
+	<input type="radio" name="radiobtn">
+	<input type="checkbox" name="checkbox">
+</body>
+</html>
